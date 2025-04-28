@@ -13,7 +13,7 @@ A simple GUI application that recognizes handwritten digits using a convolutiona
 - Displays prediction confidence
 - Clean interface with clear/reset options
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Core**: Python 3
 - **ML**: TensorFlow/Keras
