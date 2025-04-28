@@ -1,10 +1,29 @@
-This application demonstrates a classic machine learning task - handwritten digit recognition using a Convolutional Neural Network (CNN) implemented with TensorFlow.
+# Digit Recognizer with CNN
 
-# Project Overview
-The project features an interactive GUI application that allows users to:
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
+![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green)
 
-1. Draw digits on a black canvas
-2. Click the "Recognize" button to identify the drawn digit
-3. Clear the canvas using the "Clear" button
+A simple GUI application that recognizes handwritten digits using a convolutional neural network (CNN).
 
-The application utilizes a CNN model trained on the MNIST dataset, the standard benchmark dataset for handwritten digit recognition tasks.
+##  Features
+
+- Draw digits directly on canvas
+- Real-time digit prediction
+- Displays prediction confidence
+- Clean interface with clear/reset options
+
+## 🛠 Tech Stack
+
+- **Core**: Python 3
+- **ML**: TensorFlow/Keras
+- **GUI**: Tkinter
+- **Image Processing**: PIL (Pillow)
+
+##  Quick Start
+
+```bash
+git clone https://github.com/NiSMAD/python-digit-recognizer.git
+cd python-digit-recognizer
+pip install -r requirements.txt
+python digit_recognizer.py
